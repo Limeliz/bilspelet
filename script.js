@@ -6,7 +6,9 @@ const buttons = [
   { name: 'Utryckning', value: 2, color: '#2196f3' },
   { name: 'Polismotorcykel', value: 8, color: '#9c27b0' },
   { name: 'Bakhjulskörning', value: 15, color: '#ff9800', dark: true },
-  { name: 'Övningskörning', value: 1, color: '#4caf50' }
+  { name: 'Övningskörning', value: 1, color: '#4caf50' },
+  { name: 'Hajbussen', value: 5, color: 'gray' },
+  { name: 'Djurambulans', value: 8, color: 'YellowGreen', dark: true }
 ];
 
 let data = JSON.parse(localStorage.getItem('scoreData')) || players.map(() => ({
