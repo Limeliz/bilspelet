@@ -1,14 +1,17 @@
 const players = ['Förare', 'Shotgun', 'Vänster', 'Höger'];
 const buttons = [
-  { name: 'Polis', value: 5, color: '#81d4fa', dark: true },
-  { name: 'Brand', value: 5, color: '#f44336' },
-  { name: 'Sjukvård', value: 5, color: '#8bc34a', dark: true },
+  { name: 'Polis', value: 4, color: '#81d4fa', dark: true },
+  { name: 'Brand', value: 4, color: '#f44336' },
+  { name: 'Sjukvård', value: 4, color: '#8bc34a', dark: true },
   { name: 'Utryckning', value: 2, color: '#2196f3' },
-  { name: 'Polismotorcykel', value: 8, color: '#9c27b0' },
+  { name: 'Special', value: 3, color: '#9c27b0' },
   { name: 'Bakhjulskörning', value: 15, color: '#ff9800', dark: true },
   { name: 'Övningskörning', value: 1, color: '#4caf50' },
   { name: 'Hajbussen', value: 5, color: 'gray' },
-  { name: 'Djurambulans', value: 8, color: 'YellowGreen', dark: true }
+  { name: 'Roadkill', value: 2, color: 'YellowGreen', dark: true },
+  { name: 'GTA-bil', value: 4, color: 'YellowGreen', dark: true },
+  { name: 'Nära krock', value: 3, color: 'YellowGreen', dark: true },
+  { name: 'Krock/olycka', value: 6, color: 'YellowGreen', dark: true }
 ];
 
 let data = JSON.parse(localStorage.getItem('scoreData')) || players.map(() => ({
